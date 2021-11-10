@@ -1,0 +1,11 @@
+.video2 {
+	display: flex;
+	min-height: 90vh;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid red;
+}
+
+.player_container {
+	margin-top: 20px;
+}

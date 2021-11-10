@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-snap-type: y mandatory;
+}
+
+.app {
+	/* height: 100vh; */
+	height: 100vh;
+	background-color: rgb(20, 20, 20);
+	display: grid;
+	place-items: center;
+}
+
+.app_videos {
+	position: relative;
+	height: 100%;
+	border-radius: 20px;
+	overflow: scroll;
+	max-width: 500px;
+	scroll-snap-type: y mandatory;
+}
+
+.app_videos::-webkit-scrollbar {
+	display: none;
+}
+
+.app_videos {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
